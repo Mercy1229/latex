@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Main CV container styles */
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Styling for the name */
+  .cv-name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the tagline */
+  .cv-tagline {
+    color: #8F0D0D; /* PastelRed color */
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Heading styles */
+  .cv-heading {
+    color: #450808; /* DarkPastelRed color */
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for body content */
+  .cv-body {
+    color: #666666; /* LightGrey color */
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Styling for event items */
+  .cv-event {
+    margin-bottom: 15px;
+  }
+  
+  .cv-event-title {
+    font-weight: bold;
+  }
+  
+  .cv-event-company {
+    font-style: italic;
+  }
+  
+  .cv-event-date {
+    color: #8F0D0D;
+  }
+  
+  .cv-event-location {
+    color: #666666;
+  }
+  

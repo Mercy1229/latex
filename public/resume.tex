@@ -1,0 +1,117 @@
+% \documentclass[a4paper,12pt]{article}
+% \usepackage[utf8]{inputenc}
+% \usepackage{geometry}
+% \geometry{a4paper}
+
+% \title{Resume}
+% \author{John Doe}
+% \date{}
+
+% \begin{document}
+
+% \maketitle
+
+% \section*{Contact Information}
+% \begin{itemize}
+%     \item Email: john.doe@example.com
+%     \item Phone: 123-456-7890
+%     \item Address: 123 Main St, City, Country
+% \end{itemize}
+
+% \section*{Education}
+% \begin{itemize}
+%     \item Bachelors in Computer Science, University Name, 2024
+% \end{itemize}
+
+% \section*{Experience}
+% \begin{itemize}
+%     \item Software Developer Intern, XYZ Company, 2023 - Present
+% \end{itemize}
+
+% \end{document}
+
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage{xcolor}  % For color customization
+\usepackage{fontawesome5}  % For Font Awesome icons
+\usepackage{titlesec}  % For custom section titles
+\usepackage{enumitem}  % To customize lists
+\usepackage{hyperref}  % For links
+\usepackage{tikz}  % For drawing lines
+
+% Set font and color for title
+\usepackage{tgtermes}  % Set a nicer font
+\definecolor{myblue}{rgb}{0.1, 0.2, 0.8}  % Set color
+
+% Section styling
+\titleformat{\section}[block]{\normalfont\Large\bfseries\color{myblue}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}[runin]{\normalfont\large\bfseries\color{myblue}}{}{0em}{}[:]
+
+% Set page margins and layout
+\geometry{top=1in, bottom=1in, left=1in, right=1in}
+
+% Set the space between sections
+\setlength{\parskip}{0.5em}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty} % Remove page number from title page
+
+% Contact Information
+\noindent
+\textbf{\Huge John Doe} \\
+\noindent
+\href{mailto:john.doe@example.com}{\texttt{john.doe@example.com}} \quad | \quad 
+\href{tel:+1234567890}{\texttt{+123 456 7890}} \\
+\noindent
+123 Main St, City, Country \\
+\rule{\textwidth}{0.4pt}  % Horizontal line
+
+% Education Section
+\section*{Education}
+\noindent
+\textbf{Bachelor of Computer Science} \\
+University Name, 2024 \\
+\textit{Graduated with Honors, CGPA: 3.8/4.0}
+
+% Experience Section
+\section*{Experience}
+\noindent
+\textbf{Software Developer Intern} \\
+XYZ Company, 2023 -- Present \\
+\begin{itemize}[left=0em, labelsep=1em]
+    \item Developed web applications using JavaScript and React.js
+    \item Collaborated with cross-functional teams to design and implement new features
+    \item Wrote unit tests and contributed to project documentation
+\end{itemize}
+
+% Skills Section
+\section*{Skills}
+\noindent
+\textbf{Programming Languages:} Python, JavaScript, C++ \\
+\textbf{Web Development:} HTML, CSS, React.js, Node.js \\
+\textbf{Tools:} Git, Docker, Jenkins
+
+% Projects Section
+\section*{Projects}
+\noindent
+\textbf{Online Portfolio} \\
+Developed a personal website to showcase my projects and technical skills. Used React.js for the frontend and hosted it on GitHub Pages.
+
+\noindent
+\textbf{Task Manager App} \\
+Built a task management web application using React.js and Firebase. Allowed users to create and track tasks, and implemented user authentication.
+
+% Volunteer Work Section
+\section*{Volunteer Work}
+\noindent
+\textbf{Mentor} \\
+Coding Bootcamp, 2022 -- 2023 \\
+Mentored aspiring software developers, providing guidance on coding best practices and problem-solving.
+
+\end{document}
